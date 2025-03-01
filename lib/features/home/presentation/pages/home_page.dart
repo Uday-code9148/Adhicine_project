@@ -17,7 +17,6 @@ class HomeScreenState extends State<HomeScreen> {
       selectedDate = selectedDate.add(Duration(days: days));
     });
   }
-
   String getFormattedDate({int manualDate = 0}) {
     List<String> months = [
       "Jan",
